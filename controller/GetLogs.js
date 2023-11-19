@@ -37,8 +37,6 @@ exports.GetLogs= async(req,res)=>
 
         let response=await Logs.find({[type]:value});
         
-       
-
         console.log(response);
        return  res.status(200).json(
             {
