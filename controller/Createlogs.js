@@ -3,7 +3,7 @@ exports.CreateLogs= async(req,res)=>
 {
    try {
     const {level,message,resourceId,timestamp,traceId,spanId,commit,metadata}= req.body;
-    console.log(level,message);
+    
     
     const Log= new Logs(
         {
