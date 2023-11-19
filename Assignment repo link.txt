@@ -1,2 +1,1 @@
-frontend repo link ---> https://github.com/Soni895/frontend
-backend repo link  ---->https://github.com/Soni895/backend
+
