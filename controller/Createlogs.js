@@ -2,12 +2,12 @@ const Logs= require("../models/Logs");
 exports.CreateLogs= async(req,res)=>
 {
    try {
-    const {level,message,resourceId,timestamp,traceId,spanId,commit,metadata}= req.body;
+    const {level}= req.body;
     
     
     const Log= new Logs(
         {
-            level,message,resourceId,timestamp,traceId,spanId,commit,metadata
+            level
         }
     ) 
     

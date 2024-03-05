@@ -22,7 +22,7 @@ const dbConnect = () => {
 			process.exit(1);
 		});
 
-      // Create a connection to the database
+      // Create a connection to the database 
 //   mysql.createConnection({
 // 	host: 'localhost',
 // 	user: 'root',

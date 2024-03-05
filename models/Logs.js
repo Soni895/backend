@@ -3,7 +3,8 @@ const mongoose=require("mongoose");
 const LogsSchema=new mongoose.Schema({
     level:
     {
-      type:String
+      type:[String],
+      required:true
     },
     message:{
         type:String
